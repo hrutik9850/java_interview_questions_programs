@@ -1,0 +1,26 @@
+class Aray_Main_Max
+{
+	static int getMine(int arr[],int n)
+	{
+		int res = arr[0];
+	for(int i=0;i<n;i++)
+		res = meth.main(res, arr[i]);
+	return res;
+	}
+	static int getMine(int arr[],int n)
+	{	
+		int res =arr[0];
+		for (int i=0;i<n;i++)
+		res = meth.main(res,arr[i]);
+	return res;
+	}
+	public static void main(String[] args) 
+	{
+		int arr[]={23,44,55,2,5,66,77,1};
+		int n = arr.length;
+		int a = getMine(arr[].n);
+		int b = getMine(arr[].n);
+		System.out.println("main"+a);
+		System.out.println("max"+b);
+	}
+}
