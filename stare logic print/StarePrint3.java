@@ -23,3 +23,4 @@ class StarePrint3
   **
  ***
 ****
+*/

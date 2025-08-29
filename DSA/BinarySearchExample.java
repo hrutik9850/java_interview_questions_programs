@@ -1,8 +1,6 @@
 package DSA;
-
-
-
-
+// Binary Search Example
+// Binary Search is a search algorithm that finds the position of a target value within a sorted array.
 /**  Worst Case Complexity:
  In each step, the array is divided by 2
  Max comparisons = log₂(n) = log₂(8) = 3 steps
@@ -15,7 +13,8 @@ public class BinarySearchExample {
         int high = arr.length - 1;
 
         while (low <= high) {
-            int mid = (low + high) / 2;
+            int mid = (low + high) / 2;// calculate mid index
+            // Debugging output to trace the search process
 
             System.out.println("Checking index: " + mid + ", value: " + arr[mid]);
 
