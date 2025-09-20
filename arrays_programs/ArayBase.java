@@ -1,3 +1,5 @@
+
+
 class ArayBase 
 {
 	public static void main(String[] args) 
