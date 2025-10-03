@@ -44,6 +44,8 @@ public class Add_TwoNumber {
 
         // Create second number: 465 as 5 -> 6 -> 4
         ListNode l2 = new ListNode(5);
+
+        
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
 
